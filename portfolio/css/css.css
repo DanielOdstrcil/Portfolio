@@ -1,0 +1,77 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-image: url('../images/pozadi.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.btn-neon {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #000000;
+    transition: 0.3s;
+}
+
+.btn-neon:hover {
+    box-shadow: 0 0 20px #000000;
+}
+
+.card {
+    background-color: #f0f0f0;
+    color: #000000;
+    border: 2px solid #000000;
+    box-shadow: 0 0 10px #000000;
+}
+
+.card img {
+    border-bottom: 2px solid #000000;
+}
+
+.card-footer {
+    background-color: #f0f0f0;
+    border-top: 2px solid #000000;
+    color: #000000;
+    font-size: 14px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.rotate-img {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.1s ease;
+    margin: 10px auto;
+    display: block;
+}
